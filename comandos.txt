@@ -1,0 +1,1 @@
+python3 detection_and_tracking.py --model=/home/jetson/Documents/jetson-inference/python/training/detection/ssd/models/ratones/ssd-mobilenet.onnx --labels=/home/jetson/Documents/jetson-inference/python/training/detection/ssd/models/ratones/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes file:///home/jetson/Videos/1.mp4
